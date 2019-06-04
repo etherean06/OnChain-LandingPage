@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+
+.main-div {
+ 
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-left: 5%;
+    
+}
+
+.title {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 66px;
+  left: 9.24%;
+  right: 46.39%;
+  top: 40.33%;
+  bottom: 48.22%;
+  text-align: left;
+  margin-top: 15%;
+  margin-left: 5%;
+}
+
+.main-text {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: left;
+  margin-left: 20px;
+  margin-left: 5%;
+}
+
+.email-input {
+  width: 271px;
+  height: 49px;
+  border: 1px solid #575473;
+  box-sizing: border-box;
+  border-radius: 28.5px;
+  background-color: #16132e;
+  left: 134px;
+  top: 555px;
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+
+}
+
+.subscribe-button {
+  background: linear-gradient(136.09deg, #3eecac 53.57%, #10b7e0 101.89%);
+  width: 200px;
+  height: 49px;
+  border-radius: 28.5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.button-text {
+  color: #16132e;
+  font-size: 19px;
+  line-height: 22px;
+  width: 95px;
+  height: 27px;
+  font-family: "Roboto", sans-serif;
+
+}
+
+.main-background {
+    width: 20%;
+}
