@@ -25,7 +25,8 @@ const CustomForm = ({ status, message, onValidated }) => {
       )}
       {status === "success" && (
         <div
-          style={{ color: "green" }}
+        className="success-message"
+          style={{ color: "green"}}
           dangerouslySetInnerHTML={{ __html: message }}
         />
       )}

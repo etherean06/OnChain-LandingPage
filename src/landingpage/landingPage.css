@@ -46,6 +46,10 @@
   top: 555px;
   vertical-align: middle;
   margin: 5px 10px 5px 0;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 20px;
 
 }
 
@@ -71,3 +75,43 @@
 .main-background {
     width: 20%;
 }
+
+input:focus{
+    outline: none;
+}
+
+@media all and (min-width:360px) and (max-width:800px) {
+
+    .main-div {
+   margin-left: 0;
+    }
+    .email-input {
+        width: 60%;
+        height: 49px;       
+        vertical-align: middle;
+        margin: auto;
+        color: white;
+        font-family: "Roboto", sans-serif;
+        text-align: center;
+        font-size: 20px;
+      
+      }
+      .main-text {
+        color: white;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: left;
+       padding: 10px 
+      }
+
+      .title {
+          font-size: 50px
+      }
+
+      .subscribe-button {
+          margin: 10px auto;
+          width: 30%;
+      }
+  }

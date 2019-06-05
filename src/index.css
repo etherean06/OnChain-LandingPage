@@ -1,7 +1,10 @@
 body {
   background-image: url(./images/background.png);
  background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 90%;
+  background-position: right top;
+  width: 100%;
+  background-color:  #16132E;;
   min-height: 100%;}
 
 code {
@@ -19,4 +22,22 @@ code {
   width: 20%;
 }
 
+.mobile-image {
+  display: none
+}
 
+
+@media all and (min-width:360px) and (max-width:800px) {
+  body {
+      background-image: none;
+       }
+
+       .logo {
+         width: 80%;
+       }
+       .mobile-image {
+         display: flex;
+         width: 100%;
+         margin-top: 80px;
+       }
+}
