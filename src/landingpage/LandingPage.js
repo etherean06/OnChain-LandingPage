@@ -6,7 +6,7 @@ import "./landingPage.css";
 
 // a basic form
 const CustomForm = ({ status, message, onValidated }) => {
-  let email, name;
+  let email
   const submit = () =>
     email &&
     email.value.indexOf("@") > -1 &&
@@ -52,13 +52,11 @@ class Form extends Component {
       "https://appliedtechnology.us20.list-manage.com/subscribe/post?u=991ea9ef9cee7e5687536a72f&amp;id=c075dafca4";
     return (
       <div>
-        <h1 className="title">Opening Soon</h1>
+        <h1 className="title">Décollage Imminent</h1>
 
         <p className="main-text">
           {" "}
-          Passionné par la crypto et tu veux en faire ton <br /> métier ?  Alors
-          inscris-toi à notre mailing list pour <br /> être le 1er informé du lancement
-          d’OnChainJobs !
+          Tu es passionné par l’univers de la blockchain<br /> et des cryptomonnaies et tu souhaites en faire ton métier ?<br /> Inscrits toi à notre mailing list pour être le premier informé <br /> du lancement de OnChainJobs et recevoir en avant-première <br /> notre tout premier article !
         </p>
         <MailchimpSubscribe
           url={url}
@@ -70,6 +68,7 @@ class Form extends Component {
             />
           )}
         />
+        <span className="spams">* Nous détestons les spams </span>
       </div>
     );
   }

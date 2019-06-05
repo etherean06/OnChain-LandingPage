@@ -80,6 +80,17 @@ input:focus{
     outline: none;
 }
 
+button:focus {
+    outline: none
+}
+
+.spams {
+    color: rgb(153, 152, 152);
+    font-style: italic;
+    text-align: left;
+    margin-right: 50%;
+}
+
 @media all and (min-width:360px) and (max-width:800px) {
 
     .main-div {
@@ -89,7 +100,7 @@ input:focus{
         width: 60%;
         height: 49px;       
         vertical-align: middle;
-        margin: auto;
+        margin: auto 3px;
         color: white;
         font-family: "Roboto", sans-serif;
         text-align: center;
@@ -101,17 +112,19 @@ input:focus{
         font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 20px;
-        line-height: 23px;
-        text-align: left;
-       padding: 10px 
+        line-height: 30px;
+        
+       padding: 5px 
       }
 
       .title {
-          font-size: 50px
+          font-size: 30px
       }
 
       .subscribe-button {
-          margin: 10px auto;
+          margin: 10px ;
           width: 30%;
       }
   }
+
+  
