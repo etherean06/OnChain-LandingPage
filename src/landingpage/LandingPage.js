@@ -52,11 +52,11 @@ class Form extends Component {
       "https://appliedtechnology.us20.list-manage.com/subscribe/post?u=991ea9ef9cee7e5687536a72f&amp;id=c075dafca4";
     return (
       <div>
-        <h1 className="title">Décollage Imminent</h1>
+        <h1 className="title">Développes ta carrière <br /> dans l'industrie blockchain</h1>
 
         <p className="main-text">
           {" "}
-          Tu es passionné par l’univers de la blockchain<br /> et des cryptomonnaies et tu souhaites en faire ton métier ?<br /> Inscrits toi à notre mailing list pour être le premier informé <br /> du lancement de OnChainJobs et recevoir en avant-première <br /> notre tout premier article !
+          Tu es passionné par l’univers de la blockchain et des cryptomonnaies <br /> et tu souhaites en faire ton métier ?<br /> Inscris toi à notre newsletter pour suivre  le lancement d' OnChainJobs <br /> et recevoir nos articles en avant premières!
         </p>
         <MailchimpSubscribe
           url={url}

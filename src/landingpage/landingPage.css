@@ -114,6 +114,7 @@ button:focus {
 
   .title {
     font-size: 30px;
+    line-height: 40px;
   }
 
   .subscribe-button {
