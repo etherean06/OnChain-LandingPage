@@ -52,7 +52,7 @@ class Form extends Component {
       "https://appliedtechnology.us20.list-manage.com/subscribe/post?u=991ea9ef9cee7e5687536a72f&amp;id=c075dafca4";
     return (
       <div>
-        <h1 className="title">Développes ta carrière <br /> dans l'industrie blockchain</h1>
+        <h1 className="title">Développe ta carrière <br /> dans l'industrie blockchain</h1>
 
         <p className="main-text">
           {" "}
