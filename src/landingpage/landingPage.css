@@ -15,7 +15,7 @@
   line-height: 66px;
   left: 9.24%;
   right: 46.39%;
-  top: 40.33%;
+  top: 30.33%;
   bottom: 48.22%;
   text-align: left;
   margin-top: 15%;
@@ -31,6 +31,7 @@
   text-align: left;
   margin-left: 20px;
   margin-left: 5%;
+  margin-bottom: 40px;
 }
 
 .email-input {
