@@ -68,7 +68,7 @@ class Form extends Component {
             />
           )}
         />
-        <span className="spams">* Nous détestons les spams </span>
+        <span className="spams">PS: Nous détestons les spams </span>
       </div>
     );
   }
