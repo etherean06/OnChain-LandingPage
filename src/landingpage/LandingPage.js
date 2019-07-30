@@ -56,7 +56,7 @@ class Form extends Component {
 
         <p className="main-text">
           {" "}
-          Tu es passionné par l’univers de la blockchain et des cryptomonnaies <br /> et tu souhaites en faire ton métier ?<br /> Inscris-toi à notre newsletter pour suivre le lancement d'OnChainJobs <br /> et recevoir nos articles en avant-premières !
+          Tu es passionné par l’univers de la blockchain et des cryptomonnaies <br /> et tu souhaites en faire ton métier ?<br /> Inscris-toi à notre newsletter pour suivre le lancement d'OnChainJobs <br /> et recevoir nos articles en avant-première !
         </p>
         <MailchimpSubscribe
           url={url}
